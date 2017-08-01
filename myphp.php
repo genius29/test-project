@@ -13,6 +13,7 @@ if($d == "Fri"){
 } else{
     echo "Have a nice day!";
 }
+//Test
 ?>
 
 </body>
