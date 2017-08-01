@@ -14,6 +14,7 @@ if($d == "Fri"){
     echo "Have a nice day!";
 }
 //Test
+//echo blank
 ?>
 
 </body>
