@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/tests/vendor/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script scr="js/tests/popover.js"></script>
+</head>
+<body>
+
+    <nav id="navbar-example" class="navbar navbar-default navbar-static" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Genius Plant </a>
+        </div>
+        <div class="collapse navbar-collapse bs-example-js-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#" role="button" class="toggle" data-toggle="active">Home</a>
+              
+            </li>
+            <li class="dropdown">
+              <a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contacts <b class="caret"></b></a>
+              <ul class="dropdown-menu" aria-labelledby="drop2">
+                <li><a href="#">Phone number</a></li>
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Others</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form id="mega-search" class="navbar-form navbar-right">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                    </input>
+                </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+   
+    <div class="row">
+      <div class="col-md-3" style="background-color:#d2e0e0; height:500px">
+        <ul class="nav nav-pills nav-stacked" style="font-color: #006b00; text-align: center;">
+         <li role="presentation active"><a href="#">Home</a></li>
+         <li role="presentation active"><a href="#">Profile</a></li>
+         <li role="presentation active"><a href="#home">Messages</a></li>
+         <li role="presentation active"><a href="#">Topics</a></li>
+         <li role="presentation active"><a href="#">Favorites</a></li>
+         <li role="presentation active"><a href="#">Something New</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-md-6" style="background-color:white; height:500px">
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#home">Home</a>
+          </li>
+          <li><a class="dropdown-toggle" data-toggle="dropdown">Profile
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Submenu1">Submenu1</a></li>
+              <li><a class="dropdown-item" href="#messages">Submenu2</a></li>
+              <li><a class="dropdown-item" href="#">Submenu3</a></li>
+              <div class="dropdown-divider"></div>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li><a data-toggle="tab" href="#messages">Messages</a></li>
+        </ul>
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+            <div class="jumbotron text-center">
+              <h3>Home</h3>
+              <p>Home is where the heart is.</p>  
+              <p><button type="button" class="btn btn-info">Learn More</button></p>
+            </div>
+          </div>
+          <div id="Submenu1" class="tab-pane fade">
+            <h3>Profile</h3>
+            <p>A user profile is a visual display of personal data associated with a specific user, or a customized desktop environment. A profile refers therefore to the explicit digital representation of a person's identity. A user profile can also be considered as the computer representation of a user model.
+
+            A profile can be used to store the description of the characteristics of person. This information can be exploited by systems taking into account the persons' characteristics and preferences.</p>
+          </div>
+          <div id="messages" class="tab-pane fade center" style="background-image: url(message.jpg);">
+            <h3>Messages</h3>
+            <p>A message is a discrete unit of communication intended by the source for consumption by some recipient or group of recipients. A message may be delivered by various means, including courier, telegraphy, carrier pigeon and electronic bus. A message can be the content of a broadcast. An interactive exchange of messages forms a conversation.
+            <br><br><br><br><br><br><br><br><br><br>
+            </p>                    
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" style="background-color:#d2e0e0; height:500px">
+        
+      </div>
+    </div>
+  
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 footerleft ">
+          <div class="logofooter"> Logo</div>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+          <p><i class="fa fa-map-pin"></i> 210, Aggarwal Tower, Borbon, Cebu -  6008, Philippines</p>
+          <p><i class="fa fa-phone"></i> Phone (<a href="#">Philippines</a>) : +63 9999 878 398</p>
+          <p><i class="fa fa-envelope"></i> E-mail : info@SherwinUrsal.com</p>
+          
+        </div>
+        <div class="col-md-2 col-sm-6 paddingtop-bottom">
+          <h6 class="heading7">GENERAL LINKS</h6>
+          <ul class="footer-ul">
+            <li><a href="#"> Career</a></li>
+            <li><a href="#"> Privacy Policy</a></li>
+            <li><a href="#"> Terms & Conditions</a></li>
+            <li><a href="#"> Client Gateway</a></li>
+            <li><a href="#"> Ranking</a></li>
+            <li><a href="#"> Case Studies</a></li>
+            <li><a href="#"> Frequently Ask Questions</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 paddingtop-bottom">
+          <h6 class="heading7">LATEST POST</h6>
+          <div class="post">
+            <p>facebook crack the movie advertisment code:what it means for you <span>October 29,2017</span></p>
+            <p>facebook crack the movie advertisment code:what it means for you <span>October 29,2017</span></p>
+            <p>facebook crack the movie advertisment code:what it means for you <span>October 29,2017</span></p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 paddingtop-bottom">
+          <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+            <div class="fb-xfbml-parse-ignore">
+              <blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    <div class="container">
+      <div class="col-md-6">
+        <p>© 2016 - All Rights with Sherwin "Genius" Ursal</p>
+      </div>
+      <div class="col-md-6">
+        <ul class="bottom_ul">
+          <li><a href="#">Sherwinursal.com</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Faq's</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Site Map</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

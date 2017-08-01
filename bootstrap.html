@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <script src="js/tests/vendor/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body style="background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);">
+
+    <nav id="navbar-example" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid" id="toTop">
+          <div class="navbar-header">
+            <!-- <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar">sdasd</span>
+              <span class="icon-bar">dsdsd</span> 
+              <span class="icon-bar">hjgjg</span>
+            </button> -->
+            <a class="navbar-brand" href="#"><big><strong>Genius Realty  </strong></big></a>
+          </div>
+          <div class="collapse navbar-collapse bs-example-js-navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="#" role="button" class="toggle" data-toggle="active">
+                  <i class="fa fa-home fa-lg"></i>
+                </a>
+                
+              </li>
+              <li class="btn btn-group show-on-hover">
+                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                  Contacts <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                <!-- <li class="dropdown">
+                  <a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contacts <b class="caret"></b></a>
+                  <ul class="dropdown-menu" aria-labelledby="drop2"> -->
+                    <li><a href="#"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Phone</a></li>
+                    <li><a href="#"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> Email</a></li>
+                    <li><a href="#"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Others</a></li>
+                </ul>
+                
+              </li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search..." style="width: 300px">
+              </div>
+              <button type="submit" class="btn btn-info">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+    </nav> <br><br><br>
+
+     
+    <div class="row">
+      <div class="col-sm-2 col-md-2" style="background-color:#d2e0e0; height:700px">       
+            <div class="well" style="width:107%; padding: 8px;">
+                <div style="overflow-y: scroll; overflow-x: hidden; height: 680px;">
+                    <ul class="nav nav-list list-group ">
+                        <li><label class="tree-toggler nav-header"><span class="caret"></span> WorkLoad</label>
+                            <ul class="nav nav-list tree">
+                                <li><a href="#">DME Report</a></li>
+                                <li><a href="#">CAMB Report</a></li>
+                                <li><a href="#">LMAB Report</a></li>
+                                <li><a href="#">DMF Notification</a></li>
+                                <li><a href="#">LME Forecast Report</a></li>
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+                        <li><label class="tree-toggler nav-header"><span class="trigger right-caret"></span> Performance </label>
+                            <ul class="nav nav-list tree">
+                                <li><a href="#">Calendar</a></li>
+                                <li><a href="#">Efficiency</a></li>
+                                <li><a href="#">Process Age</a></li>
+                                <li><a href="#">DME Audit</a></li>
+                                <li><a href="#">Condition Detected At DME</a></li>
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+                        <li><label class="tree-toggler nav-header"><span class="caret"></span> Customers</label>
+                            <ul class="nav nav-list tree">
+                                <li><a href="#">Demography</a></li>
+                                <li><a href="#">Feedback</a></li>
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+                        <li><label class="tree-toggler nav-header"><span class="caret"></span> Licensing</label>
+                            <ul class="nav nav-list tree">
+                                <li><a href="#">Assessment Status</a></li>
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+                        <li><label class="tree-toggler nav-header"><span class="caret"></span> Medical Stats</label>
+                            <ul class="nav nav-list tree">
+                                <li><a href="#">Diagnosis Report</a></li>
+                                <li><a href="#">Measurement and Investigation Report</a></li>
+                                <li><a href="#">Health Risk Report</a></li>
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+                        <li><label class="tree-toggler nav-header"><span class="caret"></span> Admin</label>
+                            <ul class="nav nav-list tree">
+                                <li><a href="#">Revenue Report</a></li>
+                                <li><a href="#">Applicant Activity Report</a></li>
+                                <li><a href="#">Login Activity Report</a></li>
+                            </ul>
+                        </li>
+              </div>
+        </div>  
+      </div>
+        
+        <div class="col-sm-8 col-md-8" style="background-color:white; height:700px">
+          <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#home">Home</a>
+              </li>
+              <li>
+                <div class="btn-group" style="position:relative;">
+                    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                      Location <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Antarctica</a></li>
+                      <li>
+                        <a class="trigger right-caret">All</a>
+                        <ul class="dropdown-menu sub-menu">
+                          <li><a href="#">Philippines</a></li>
+                          <li><a href="#">India</a></li>
+                          <li>
+                            <a class="trigger right-caret">USA</a>
+                            <ul class="dropdown-menu sub-menu">
+                              <li><a href="#">Arizona</a></li>
+                              <li><a href="#">Massachusetts</a></li>
+                              <li><a href="#">Texas</a></li>
+                              <li>
+                                <a class="trigger right-caret">California</a>
+                                <ul class="dropdown-menu sub-menu">
+                                  <li><a href="#">Los Angeles</a></li>
+                                  <li><a href="#">San Francisco</a></li>
+                                  <li><a href="#">San Diego</a></li>
+                                  <li><a href="#">Sacramento</a></li>
+                                </ul>
+                              </li>
+                              <li><a href="#">Pennsylvania</a></li>
+                              <li><a href="#">Michigan</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Ireland</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Asia</a></li>
+                      <li><a href="#">Europe</a></li>
+                      <li><a href="#">Northern America</a></li>
+                      <li><a href="#">Southern America</a></li>
+                    </ul>
+                </div>
+              </li>
+              <li><a data-toggle="tab" href="#messages">Messages</a></li>
+          </ul>
+          <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+              <div class="jumbotron text-center" style="background-image: url(img/home.jpg);height: 600px">
+                <h2><b>Home</b></h2>
+                <p><b>Home is where the heart is.</b></p>  
+                <p><button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalOnoff"><span class="fa fa-check"></span>Sign In</button></p>
+              </div>
+            </div>
+            <div id="Submenu1" class="tab-pane fade">
+              <h3>Profile</h3>
+              <p>A user profile is a visual display of personal data associated with a specific user, or a customized desktop environment. A profile refers therefore to the explicit digital representation of a person's identity. A user profile can also be considered as the computer representation of a user model.
+
+              A profile can be used to store the description of the characteristics of person. This information can be exploited by systems taking into account the persons' characteristics and preferences.</p>
+            </div>
+            <div id="messages" class="tab-pane fade text-center" style="background-image: url(img/message3.jpg);"><br>
+              <h2><b>Messages</b></h2><br>
+              <p>A message is a discrete unit of communication intended by the source for consumption by some recipient or group of recipients. A message may be delivered by various means, including courier, telegraphy, carrier pigeon and electronic bus. A message can be the content of a broadcast. An interactive exchange of messages forms a conversation.</p>
+              <br><br><br><br><br><br><br><br><br><br><br><br>
+                                  
+            </div>
+          </div>
+        </div>
+        <div class="modal fade bs-example-modal-lg" id="modalOnoff" tabindex="-1" role="dialog" aria-labelledby="lbOnoff">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="lbOnoff">Sign In</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p>Please, enter your credentials:</p>
+                    <form>
+                      <div class="form-group"><label>Email</label><input name="email" type="text" class="form-control" required="true" placeholder="Email" value=""></div>
+                      <div class="form-group"><label>Password</label><input name="passwd" type="password" class="form-control" required="true" placeholder="Password"></div>
+                      <div class="form-group"><button class="btn btn-md btn-success btn-block" type='submit'>Sign in</button></div>
+                    </form>
+                  </div>
+                  <div class="col-md-6">
+                    <p>Don't have an account yet? Create now!</p>
+                    <div class="pull-right">
+                      <span class="fa fa-share-alt fa-5x"></span>
+                    </div>
+                    <ul>
+                      <li>Amazing things</li>
+                      <li>Awesome stuff</li>
+                      <li>and more!</li>
+                    </ul>
+                    <hr>
+                    <a class="btn btn-lg btn-primary btn-block">Sign up</a>
+                    <p class="text-center"><span class="text-muted"><small>we'll never spam you! we promise</small></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2" style="background-color:#d2e0e0; height:700px">
+          <div class="jumbotron text-center" style="height: 400px">
+            <div class="container">
+              <h2>Advertise Here..</h2><br>
+              <p>In today's world internet is the most popular way to advertise…</p>
+            </div>
+          </div>
+            
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 footerleft ">
+        <div class="logofooter"> Logo</div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+        <p><i class="fa fa-map-marker fa-2x"></i> Brgy. Bongdo, Borbon, Cebu - 6008, PHILIPPINES</p>
+        <p><i class="fa fa-phone fa-lg"></i> Phone (<a href="#">Philippines</a>) : +63 9999 878 398</p>
+        <p><i class="fa fa-envelope fa-lg"></i> E-mail : info@sherwin.com</p>
+        
+      </div>
+      <div class="col-md-2 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">GENERAL LINKS</h6>
+        <ul class="footer-ul">
+          <li><a href="#"> Career</a></li>
+          <li><a href="#"> Privacy Policy</a></li>
+          <li><a href="#"> Terms & Conditions</a></li>
+          <li><a href="#"> Client Gateway</a></li>
+          <li><a href="#"> Ranking</a></li>
+          <li><a href="#"> Case Studies</a></li>
+          <li><a href="#"> Frequently Ask Questions</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">LATEST POST</h6>
+        <div class="post">
+          <p>facebook crack the movie advertisment code:what it means for you <span>August 3,2016</span></p>
+          <p>facebook crack the movie advertisment code:what it means for you <span>August 3,2016</span></p>
+          <p>facebook crack the movie advertisment code:what it means for you <span>August 3,2016</span></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/zaian29"><a href="https://www.facebook.com/zaian29"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a></blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="copyright">
+  <div class="container">
+    <div class="col-md-6">
+      <p>© 2017 - All Rights with Sherwin Ursal</p>
+    </div>
+    <div class="col-md-6">
+      <ul class="bottom_ul">
+        <li><a href="https://www.sherwin.com">sherwin.com</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Faq's</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Site Map</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</html>
