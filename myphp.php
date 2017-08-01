@@ -15,6 +15,7 @@ if($d == "Fri"){
 }
 //Test
 //echo blank
+echo "blah blah";
 ?>
 
 </body>
