@@ -5,10 +5,11 @@
 </head>
 <body>
 <?php
-$numbers = array(3,4,5,6,56);
-echo numbers[2]."</br>";
+	$load = array(3,4,965896,6,56);
+	echo $load[2]."</br>";
 
-
+	$mixed = array(5,"what","oh\,no!",array(34,"arvin",6,56));
+	echo $mixed[3][1];
 ?>
 
 </body>
