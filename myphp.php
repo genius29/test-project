@@ -5,17 +5,10 @@
 </head>
 <body>
 <?php
-$d = date("Fri");
-if($d == "Fri"){
-    echo "Have a nice weekend!";
-} elseif($d == "Sun"){
-    echo "Have a nice Sunday!";
-} else{
-    echo "Have a nice day!";
-}
-//Test
-//echo blank
-echo "blah blah";
+$numbers = array(3,4,5,6,56);
+echo numbers[2]."</br>";
+
+
 ?>
 
 </body>
