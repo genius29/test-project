@@ -24,8 +24,8 @@
 
 <p><b>Start typing a name in the input field below:</b></p>
 <form> 
-Pangita ug Gwapo: <input type="text" onkeyup="showHint(this.value)">
+<big>Pangita ug Gwapo: </big><input type="text" onkeyup="showHint(this.value)">
 </form>
-<p>Gwapo si: <span id="txtHint"></span></p>
+<p><big>Gwapo si: </big><span id="txtHint"></span></p>
 </body>
 </html>
