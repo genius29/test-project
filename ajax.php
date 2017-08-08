@@ -2,7 +2,16 @@
 <html lang="en">
 <head>
 	<title>array</title>
-	<script>
+	
+</head>
+<body>
+
+<p><b>Start typing a name in the input field below:</b></p>
+<form> 
+<big>Pangita ug Gwapo: </big><input type="text" onkeyup="showHint(this.value)">
+</form>
+<p><big>Gwapo si: </big><span id="txtHint"></span></p>
+<script>
 	function showHint(str) {
 	    if (str.length == 0) { 
 	        document.getElementById("txtHint").innerHTML = "";
@@ -19,13 +28,5 @@
 	    }
 	}
 	</script>
-</head>
-<body>
-
-<p><b>Start typing a name in the input field below:</b></p>
-<form> 
-<big>Pangita ug Gwapo: </big><input type="text" onkeyup="showHint(this.value)">
-</form>
-<p><big>Gwapo si: </big><span id="txtHint"></span></p>
 </body>
 </html>
