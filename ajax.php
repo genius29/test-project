@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<p><b>Start typing a name in the input field below:</b></p>
+<p><b><big>Start typing a name in the input field below:</big></b></p>
 <form> 
 <big>Pangita ug Gwapo: </big><input type="text" onkeyup="showHint(this.value)">
 </form>

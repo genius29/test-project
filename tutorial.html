@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rainy's Music Store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="rain.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700|Patua+One|Roboto+Condensed:700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <script src="js/tests/vendor/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body style="background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);">
+    <nav id="navbar-example" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid" id="toTop">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"><big><strong>Rainy's Music Store  </strong></big></a>
+          </div>
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search..." style="width: 300px">
+              </div>
+              <button type="submit" class="btn btn-info">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+    </nav> <br><br><br>
+    <div class="container-fluid"> 
+        <div class="col-md-12" role="tablist" style="background-color:white; height:100%">
+          <ul class="nav nav-tabs tabs-3">
+              <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#home" role="tab">Home</a></li>
+              <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#about" role="tab">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#products" role="tab">Products</a></li>
+              <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#contacts" role="tab">Contacts</a></li>   
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="home" role="tabpanel">
+              <div class="jumbotron text-center" style="background-image: url(img/cello2.jpg);height: 600px">
+                <h2><b>Home</b></h2>
+                <p><b>Home is where the heart is.</b></p>  
+                <p><button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalOnoff"><span class="fa fa-check"></span>Sign In</button></p>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="about" role="tabpanel">
+              <h1>About Us</h1>
+
+                <h3>The Rainy's Music Store is the ultimate resource for collectors, top professionals, soloists, educators and students seeking all kinds of Musical instruments. 
+                  <p>We are unlike any other company because our approach to this business is to honor the perspective of the musician. </p>
+                  <p>Advertising on our site is an easier way to find the right buyer for your instrument or bow. We are not connected to a dealer or shop, instead we function as a gateway between sellers and buyers for some of the finest string instruments and bows in the world, while providing our own expertise in matching players with instruments and bows.</p>
+                  <p>We understand that the process can be overwhelming, whether you are selling your instrument or searching for something new.</p> 
+                  <p>Sometimes it is not possible to upgrade to a new instrument without first selling the existing one.</p> 
+                  <p>Let Rainy's Music Store provide you with a smooth experience of selling and buying these quality items so that you can feel at ease.</p> 
+                  <p>We take pride in our ability to be available to provide assistance and recommendations to you when searching our site.</p>
+                </h3><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="tab-pane fade" id="products" role="tabpanel"><br> 
+              <figure class="instruments">
+                <img src="img/violin.jpg" alt="violin" />
+                <figcaption>
+                  <h3>Violin FULL size 4/4</h3>
+                  <h4>Description: </h4>
+                    <p>Maple sides and back; Spruce top, ebony colored pegs; Includes bow, Rosin, and Case</p>
+                  <div class="price">
+                    $99.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure> <br>
+              <figure class="instruments hover"><img src="img/oboe.jpg" alt="oboe" />
+                <figcaption>  
+                  <h3>FOX MODEL 800 PROFESSIONAL OBOE</h3>
+                  <p>The Fox Model 800 is a standard size professional wood oboe.</p>
+                  <div class="price">
+                    $39.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+              <figure class="instruments"><img src="img/cello.jpg" alt="cello" />
+                <figcaption>
+                  <h3>Cello Yinfente Brand</h3>
+                  <p>4/4 Cello Maple Spruce cello bag Bow Rosin Hand carve Yinfente Brand</p>
+                  <div class="price">
+                    $45.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+              <figure class="instruments"><img src="img/violin2.jpg" alt="DIY violin" />
+                <figcaption>
+                  <h3>DIY Violin</h3>
+                  <p>DIY 4/4 Full Size Natural Solid Wood Violin Fiddle Kit Spruce Top Maple Back Neck Fingerboard</p>
+                  <div class="price">
+                    $36.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+              <figure class="instruments"><img src="img/guitar.jpg" alt="DIY Guitar" />
+                <figcaption>
+                  <h3>DIY Electric Guitar</h3>
+                  <p>Unfinished DIY Electric Guitar Kit Semi Hollow Basswood Body Rosewood Fingerboard Maple Neck</p>
+                  <div class="price">
+                    $160.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+              <figure class="instruments"><img src="img/guitar2.jpg" alt="Electric Guitar" />
+                <figcaption>
+                  <h3>Electric Ammoon 38"</h3>
+                  <p>Electric Guitar 6 String Solid Wood Basswood Body Maple Neck Rosewood Fretboard 24 Frets with 6.35mm Cable</p>
+                  <div class="price">
+                    $113.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+              <figure class="instruments"><img src="img/keyboard.jpg" alt="keyboard" />
+                <figcaption>
+                  <h3>Electronic Keyboard</h3>
+                  <p>49 Keys Multi-Function Toy-Type Electronic Keyboard Electronic Piano Organ with Music Stand & Microphone</p>
+                  <div class="price">
+                    $18.75.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+              <figure class="instruments"><img src="img/drumset.jpg" alt="Drum Set" />
+                <figcaption>
+                  <h3>Adult Drum Set</h3>
+                  <p>ammoon 5-Piece Complete Adult Drum Set Drums Kit Percussion Musical Instrument with Cymbals Drumsticks Stands Adjustable Stool</p>
+                  <div class="price">
+                    $173.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+              <figure class="instruments"><img src="img/sax.jpg" alt="Tenor Saxophone" />
+                <figcaption>
+                  <h3>Yamaha YTS62 Tenor Sax</h3>
+                  <p>Yamaha Yts-62 YTS62 Tenor Sax With Case Made in Japan</p>
+                  <div class="price">
+                    $2,285.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+              <figure class="instruments"><img src="img/ukulele.jpg" alt="Ukulele" />
+                <figcaption>
+                  <h3>ammoon 24" Ukulele Hawaii Guitar</h3>
+                  <p>Cutaway Ukulele Hawaii Guitar with LED EQ Koa Plywood Cowry Shell Brims OX Bone Saddle 4 Strings Instrument Gift Present</p>
+                  <div class="price">
+                    $47.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+              <figure class="instruments"><img src="img/tambourine.jpg" alt="Tambourine" />
+                <figcaption>
+                  <h3>10" Tambourine</h3>
+                  <p>10" Hand Held Tambourine Drum Bell Birch Metal Jingles Percussion Musical Educational Toy Instrument</p>
+                  <div class="price">
+                    $7.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+              <figure class="instruments"><img src="img/xylophone.jpg" alt="Xylophone" />
+                <figcaption>
+                  <h3>30 Note Glockenspiel Xylophone</h3>
+                  <p>30 Note Glockenspiel Xylophone Wooden Frame Aluminum Bars Educational Percussion Musical Instrument with Carrying Bag</p>
+                  <div class="price">
+                    $45.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+              <figure class="instruments"><img src="img/handdrum.jpg" alt="Hand Drum Percussion" />
+                <figcaption>
+                  <h3>Box Hand Drum Percussion</h3>
+                  <p>Wooden Cajon Box Drum Hand Drum Percussion Instrument Birch Wood with Adjustable Strings Carrying Bag for Children Kids</p>
+                  <div class="price">
+                    $78.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+              <figure class="instruments"><img src="img/sax2.jpg" alt="Mini Saxophone" />
+                <figcaption>
+                  <h3>Mini Pocket Saxophone</h3>
+                  <p>ammoon Mini Pocket Bb Saxophone Sax ABS with Alto Mouthpieces 4pcs Reed Carrying Bag Woodwind Instrument</p>
+                  <div class="price">
+                    $38.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+              <figure class="instruments"><img src="img/bag.jpg" alt="Guitar Bag" />
+                <figcaption>
+                  <h3>Water-resistant Guitar Bag</h3>
+                  <p>600D Water-resistant Oxford Cloth 10mm Sponge Cotton Padded Guitar Bag Backpack Shoulder Straps Pockets Gig Case for 41Inchs Acoustic Classic Folk Guitar</p>
+                  <div class="price">
+                    $24.00
+                  </div>
+                </figcaption><i class="ion-android-cart"></i>
+                <a href="#"></a>
+              </figure>
+            </div>
+            <div class="tab-pane fade" id="contacts" role="tabpanel">
+              <section id="contact" class="content-section text-center">
+                    <div class="contact-section">
+                        <div class="container">
+                          <h2>Contact Us</h2>
+                          <p>Feel free to shout us by feeling the contact form or visiting our social network sites like Fackebook,Whatsapp,Twitter.</p>
+                          <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                              <form class="form-horizontal">
+                                <div class="form-group">
+                                  <label for="exampleInputName2">Name</label>
+                                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Rainy Ursal">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputEmail2">Email</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail2" placeholder="rainyursal@example.com">
+                                </div>
+                                <div class="form-group ">
+                                  <label for="exampleInputText">Your Message</label>
+                                  <textarea  class="form-control" placeholder="Type your message here..."></textarea> 
+                                </div>
+                                <button type="submit" class="btn btn-default">Send Message</button>
+                              </form>
+                              <hr>
+                                <h3>Our Social Sites</h3>
+                              <ul class="list-inline banner-social-buttons">
+                                <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter"> <span class="network-name">Twitter</span></i></a></li>
+                                <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook"> <span class="network-name">Facebook</span></i></a></li>
+                                <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-youtube-play"> <span class="network-name">Youtube</span></i></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+              </section>        
+            </div>
+          </div>
+        </div>
+    </div>
+<footer>
+    <div class="copyright">
+      <div class="container">
+        <div class="col-md-6">
+          <p>© 2017 - All Rights with Rainy Ursal</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="bottom_ul">
+            <li><a href="https://www.sherwin.com">Rainy.com</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Faq's</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Site Map</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
